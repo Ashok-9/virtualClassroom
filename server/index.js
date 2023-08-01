@@ -42,7 +42,7 @@ app.use("/rooms", roomRoutes);
 
 
 app.get("/", (req, res) => {
-  res.send("Hello to VIA API");
+  res.send("Hello to VCR API");
 });
 
 const CONNECTION_URL = process.env.CONNECTION_URL;

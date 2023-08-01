@@ -61,11 +61,11 @@ const Navbar = ({ open, setOpen }) => {
               component="span"
               sx={{ display: { xs: "none", md: "inline" }, fontSize:"20px" }}
             >
-              {" "}Video Interaction Application
+              {" "}Virtual Class Room
             </Box>
           </Typography>
           <Link
-            href="https://github.com/Minal-singh/VIA"
+            href="https://github.com/Ashok-9/"
             target="_blank"
             rel="noopener"
             underline="none"

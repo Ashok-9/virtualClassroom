@@ -12,7 +12,7 @@ import svg from "../../static/group-vedio.svg";
 
 const CallWaiting = ({ roomId, setVideocall }) => {
   const user = JSON.parse(localStorage.getItem("user"));
-  const ENDPOINT = process.env.REACT_APP_ENDPOINT;
+  const ENDPOINT ="https://ashok-v-c-api.onrender.com";
   let socket = useRef(null);
   const dispatch = useDispatch();
 

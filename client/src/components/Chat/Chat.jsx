@@ -25,7 +25,7 @@ const Chat = ({ userId, name, room, prevMessages }) => {
   const [playSent] = useSound(messageSent);
   const [playCall, { stop }] = useSound(call);
 
-  const ENDPOINT = process.env.REACT_APP_ENDPOINT;
+  const ENDPOINT = "https://ashok-v-c-api.onrender.com";
   let socket = useRef(null);
   const navigate = useNavigate();
   const [postMessage] = usePostMessageMutation();
