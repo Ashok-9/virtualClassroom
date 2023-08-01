@@ -56,7 +56,7 @@ const Navbar = ({ open, setOpen }) => {
             variant="h4"
             sx={{ flexGrow: 1, fontFamily: "cursive" }}
           >
-            VIA
+            VCR
             <Box
               component="span"
               sx={{ display: { xs: "none", md: "inline" }, fontSize:"20px" }}
